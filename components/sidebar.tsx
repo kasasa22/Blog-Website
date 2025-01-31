@@ -10,12 +10,12 @@ export function Sidebar({ className }: SidebarProps) {
 
   const recentPosts = [
     {
-      title: "Data Pipeline Architecture Overview",
-      date: "Jan 30, 2024",
+      title: "Software Design Document Implementation",
+      date: "Feb 28, 2025",
     },
     {
-      title: "Microservices Implementation",
-      date: "Jan 29, 2024",
+      title: "Project Setup",
+      date: "Feb 28, 2025",
     },
   ]
 
