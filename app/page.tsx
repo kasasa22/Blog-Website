@@ -18,35 +18,35 @@ export default function Home() {
 
   const teamMembers = [
     {
-      name: "John Doe",
+      name: "Kasasa Livingstone",
       role: "Team Lead",
-      image: "/placeholder.svg?height=400&width=400",
-      github: "https://github.com/johndoe",
-      linkedin: "https://linkedin.com/in/johndoe",
-      bio: "Full-stack developer specializing in data pipeline architecture",
+      image: "/kasasa.jpg?height=400&width=400",
+      github: "https://github.com/kasasa22",
+      linkedin: "https://www.linkedin.com/in/kasasa-livingstone-913a76254/",
+      bio: "Software Engineer at AIBOS UG",
     },
     {
-      name: "Jane Smith",
-      role: "Backend Developer",
-      image: "/placeholder.svg?height=400&width=400",
-      github: "https://github.com/janesmith",
-      linkedin: "https://linkedin.com/in/janesmith",
-      bio: "Backend specialist with focus on microservices and cloud infrastructure",
-    },
-    {
-      name: "Mike Johnson",
+      name: "Kalema Martin",
       role: "Data Engineer",
-      image: "/placeholder.svg?height=400&width=400",
-      github: "https://github.com/mikejohnson",
-      linkedin: "https://linkedin.com/in/mikejohnson",
-      bio: "Data engineer with expertise in Apache Airflow and Kafka",
+      image: "/kalema.jpeg?height=400&width=400",
+      github: "https://github.com/MartinKalema",
+      linkedin: "https://www.linkedin.com/in/martinkalema/",
+      bio: "Data engineer at AIBOS UG",
     },
     {
-      name: "Sarah Wilson",
+      name: "Tusiime Geourge Trevor",
+      role: "Frontend Developer", 
+      image: "/trevor.jpg?height=400&width=400",
+      github: "https://github.com/tusiimegeorge",
+      linkedin: "https://linkedin.com/in/tusiimegeorge",
+      bio: "Frontend developer with experience in React and Next.js",
+    },
+    {
+      name: "Bahebwa Rashidah Adyeeri",
       role: "DevOps Engineer",
-      image: "/placeholder.svg?height=400&width=400",
-      github: "https://github.com/sarahwilson",
-      linkedin: "https://linkedin.com/in/sarahwilson",
+      image: "/Rash.jpg?height=400&width=400",
+      github: "https://github.com/bahebwashidah",
+      linkedin: "https://www.linkedin.com/in/bahebwa-rashidah-adyeeri-1b5541254/",
       bio: "DevOps specialist focusing on containerization and CI/CD",
     },
   ]
@@ -88,14 +88,14 @@ export default function Home() {
   const blogPosts = [
     {
       title: "Initial Project Setup",
-      date: "2024-01-30",
+      date: "2025-01-14",
       author: {
-        name: "John Doe",
+        name: "Kasasa LIvingstone Trevor",
         role: "Team Lead",
-        avatar: "/placeholder.svg?height=40&width=40",
+        avatar: "/kasasa.jpg?height=40&width=40",
       },
       category: "Setup",
-      readTime: "5 min",
+      readTime: "Due 14th Feb",
       excerpt:
         "Setting up the development environment and initial project structure for the AirQo Data Pipeline Enhancement project.",
       content: `
@@ -120,35 +120,35 @@ Our initial setup includes:
       `,
     },
     {
-      title: "Data Pipeline Architecture",
-      date: "2024-01-28",
+      title: "Design Document Implementation",
+      date: "2025-01-14",
       author: {
-        name: "Jane Smith",
-        role: "Backend Developer",
-        avatar: "/placeholder.svg?height=40&width=40",
+        name: "Kalema Martin",
+        role: "Data Engineer",
+        avatar: "/kalema.jpeg?height=40&width=40",
       },
-      category: "Technical",
-      readTime: "8 min",
-      excerpt: "Detailed overview of the data pipeline architecture and components we'll be implementing.",
+      category: "Documentation",
+      readTime: "Due 14th",
+      excerpt: "Progress update on the implementation of our system design document and technical specifications.",
       content: `
-## System Architecture
+## Design Document Progress
 
-The data pipeline consists of:
+Key components being documented:
 
-1. Data Collection Layer
-   - Sensor data ingestion
-   - API integrations
-   - Data validation
+1. System Requirements
+   - Functional requirements
+   - Non-functional requirements
+   - System constraints
 
-2. Processing Layer
-   - Data transformation
-   - Quality checks
-   - Analytics processing
+2. Architecture Design
+   - Component diagrams
+   - Data flow models
+   - API specifications
 
-3. Storage Layer
-   - Time-series database
-   - Data warehouse
-   - Backup systems
+3. Implementation Plan
+   - Technical stack details
+   - Development roadmap
+   - Testing strategy
       `,
     },
   ]
@@ -348,7 +348,7 @@ The data pipeline consists of:
               Have questions about our project? Feel free to reach out to our team through any of the team members'
               social links above or email us at{" "}
               <a href="mailto:contact@airqo-project.com" className="text-primary hover:underline">
-                contact@airqo-project.com
+                kasasatrevor25@gmail.com
               </a>
             </p>
           </div>
